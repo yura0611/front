@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main" >
+    <div class="btn">
+    <button class="new_game"  id = "new_game" onclick="start()">Start new game</button>
+    <button class="skp_qst"  hidden id = "skip" onclick="skip()">Skip question</button>
+    </div>
+    <div id="question" class="question"></div>
+    <div class="optns"  hidden>
+      <button class="var" id="opt1" hidden onclick="First_Opt()"></button>
+      <button class="var" id="opt2"  hidden onclick="Second_Opt()"></button>
+      <button class="var" id="opt3"  hidden onclick="Third_Opt()"></button>
+      <button class="var" id="opt4" hidden onclick="Fourth_Opt()"></button>
+      </div>
+    <div id="Total" hidden>Total prize: <span id="Total_prize"></span>  </div>
+    <div hidden id="Current">Prize on current round: <span id="Current_round"></span> </div>
+  </div>
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

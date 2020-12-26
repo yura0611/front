@@ -1,0 +1,75 @@
+/* START: Task 1 Styles */
+
+table,td{
+    border: 1px solid darkgreen;
+    margin-bottom: 100px;
+}
+
+
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+
+input{
+    height: 30px;
+}
+
+input[type=text]{
+    width: 300px;
+    outline: none;
+    margin-bottom: 100px;
+}
+
+p{
+    width: 300px;
+    border: 1px solid darkgreen;
+    color: white;
+    padding: 20px;
+    visibility: hidden;
+}
+
+
+/* END: Task 2 Styles */
+
+
+
+/* START: Task 3 Styles */
+
+#court{
+    width: 600px;
+    height: 330px;
+    background-image: url("assets/court.png");
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+
+#ball{
+    position: absolute;
+    left:287px;
+    top: 145px;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+
+#score{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#notification{
+    width: 600px;
+    text-align: center;
+}
+
+
+/* END: Task 3 Styles */

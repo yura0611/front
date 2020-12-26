@@ -1,0 +1,116 @@
+@media print{
+    .btn{
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.tm-bg-color-primary{
+    background-color:  #76cdd8;
+}
+
+.tm-col-md-reverse{
+    flex-direction:   row-reverse;
+}
+
+.tm-text-color-primary{
+    color:  #76cdd8;
+}
+
+.btn{
+    background-color: #01999A;
+    border-color: transparent;
+}
+
+.tm-bg-color-secondary{
+    background-color:  #01999A;
+}
+
+.tm-pricing-table{
+    border-color:  #01999A;
+}
+
+.tm-form-header{
+    background-color: #23d4d4;
+}
+
+.tm-contact-form{
+    margin-top: -50px;
+    z-index: 1;
+    margin-bottom: -50px;
+}
+
+q:hover,
+.tm-card p:hover,
+.tm-card a:hover {
+    color:#76cdd8;
+}
+
+.tm-card:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 0;
+    border-color: transparent #76cdd8 transparent transparent;
+}
+
+.tm-col-md-reverse:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #76cdd8 transparent    transparent  transparent  ;
+    float: left;
+}
+
+.btn-primary:hover{
+    background-color : rgb(118,205,216);
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.tm-pricing-table:hover{
+    box-shadow: 0  0  0 0.2rem #24d4d4;
+}
+
+.btn-secondary:hover{
+    background:  #24d4d4;
+}
+
+select:focus,
+.form-control:focus{
+    box-shadow: 0  0  0 0.2rem #24d4d4;
+}
+
+.tm-mb-30{
+    margin: 30px;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount{
+    display: inline;
+    position: absolute;
+    bottom: -10px;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount__star{
+    color: red;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount__text{
+    color:  #24d4d4;
+}
+
+
+
+
